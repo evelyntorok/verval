@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: service.ServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.337 s <<< FAILURE! - in service.ServiceTest
+testDeleteStudent(service.ServiceTest)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: Sikeresen beszurta a studentet!
+	at service.ServiceTest.testDeleteStudent(ServiceTest.java:71)
+
+testSaveHomework(service.ServiceTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Sikeresen beszurta a studentet!
+	at service.ServiceTest.testSaveHomework(ServiceTest.java:55)
+
